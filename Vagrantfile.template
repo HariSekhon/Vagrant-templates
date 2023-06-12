@@ -68,9 +68,9 @@ Vagrant.configure("2") do |config|
         config.vm.network "private_network", ip: "172.16.0.XX"  # XXX: edit
         config.vm.provider "virtualbox" do |vb|
             # can't set vb.name at shared level, as it evaluates too early and gets 'default-vagrant-hostname'
-            vb.name = "kube1"  # XXX: edit
-            vb.cpus = 3
-            vb.memory = 7168
+            vb.name = "host1"  # XXX: edit
+            vb.cpus = 2
+            vb.memory = 2048
             vb.customize [
                 "modifyvm", :id, "--name", "#{vb.name}"
                 #"--cpus",     3,

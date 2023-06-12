@@ -25,7 +25,7 @@ section "Running Vagrant Shell Provisioner Script - Kubernetes Common"
 
 pushd /vagrant
 
-"$bash_tools/install_packages_if_absent.sh" docker.io
+"$bash_tools/packages/install_packages_if_absent.sh" docker.io
 
 systemctl enable docker.service
 systemctl start docker.service

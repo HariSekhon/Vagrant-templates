@@ -11,7 +11,9 @@
 #  https://www.linkedin.com/in/HariSekhon
 #
 
+include ../Makefile.in
+
 .PHONY: boot
-boot:
+boot: arch
 	./2nodes.sh
 	exec vagrant ssh kube-master1

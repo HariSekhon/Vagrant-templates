@@ -23,7 +23,7 @@ log="/vagrant/logs/${name%.sh}.log"
 
 {
 
-bash_tools="/bash"
+bash_tools="/github/bash-tools"
 
 # shellcheck source=provision-kube-common.sh
 . "/vagrant/provision-kube-common.sh"

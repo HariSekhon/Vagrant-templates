@@ -1,4 +1,4 @@
-# Hari Sekhon - Vagrant-templates
+# Hari Sekhon - Vagrant templates
 
 [![GitHub stars](https://img.shields.io/github/stars/HariSekhon/Vagrant-templates?logo=github)](https://github.com/HariSekhon/Vagrant-templates/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/HariSekhon/Vagrant-templates?logo=github)](https://github.com/HariSekhon/Vagrant-templates/network)

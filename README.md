@@ -33,7 +33,18 @@
 
 Vagrant templates for quick labs.
 
-Just `cd` to a directory and type `vagrant up`.
+Just `cd` to a directory and type `make`:
+
+```shell
+cd ubuntu
+make
+```
+
+which will run a:
+```shell
+vagrant up
+vagrant ssh ubuntu
+```
 
 
 ## Inventory

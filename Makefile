@@ -65,3 +65,13 @@ install: build
 #.PHONY: clean
 #clean:
 #    @rm -fv -- *.pyc *.pyo
+
+.PHONY: wc
+wc:
+	@find . -type f | \
+	grep -v -e bash-tools \
+			-e '\.git' \
+			-e '\.vagrant' | \
+	grep -e '\.sh' \
+		 -e 'Vagrantfile' | \
+	xargs wc -l

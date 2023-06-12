@@ -57,10 +57,10 @@ vagrant ssh ubuntu
 
 ## Inventory
 
+- `ubuntu/` - quick [Ubuntu](https://ubuntu.com/) Linux VM, or fork as the base to quickly create Ubuntu-based labs
+- `debian/` - quick [Debian](https://www.debian.org/) Linux VM, or fork as the base to quickly create Debian-based labs
 - `kubernetes/` - [Kubernetes](https://kubernetes.io/) cluster built by `kubeadm` on Ubuntu. Used this to pass my [CKA](https://www.cncf.io/certification/cka/) exam ([Certified Kubernetes Administrator](https://www.cncf.io/certification/cka/)), you need something like this for the official [CNCF CKA course - Kubernetes Fundamentals](https://training.linuxfoundation.org/training/kubernetes-fundamentals/) (as of 2019-2020)
 - `rancher/` - [Rancher](https://www.rancher.com/) cluster
-- `debian/` - quick [Debian](https://www.debian.org/) Linux VM, or fork as the base to quickly create Debian-based labs
-- `ubuntu/` - quick [Ubuntu](https://ubuntu.com/) Linux VM, or fork as the base to quickly create Ubuntu-based labs
 
 
 ## See Also

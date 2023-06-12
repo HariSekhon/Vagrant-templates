@@ -40,7 +40,7 @@ cd ubuntu
 make
 ```
 
-which will run a:
+which will run:
 ```shell
 vagrant up
 vagrant ssh ubuntu

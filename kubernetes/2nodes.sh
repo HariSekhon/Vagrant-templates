@@ -19,4 +19,4 @@ srcdir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 cd "$srcdir"
 
-vagrant up master1 worker1
+vagrant up kube-master1 kube-worker1

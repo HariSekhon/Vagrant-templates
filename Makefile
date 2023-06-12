@@ -11,30 +11,9 @@
 #  https://www.linkedin.com/in/HariSekhon
 #
 
-# ===================
-# bootstrap commands:
-
-# setup/bootstrap.sh
-#
-# OR
-#
-# Alpine:
-#
-#   apk add --no-cache git make && git clone https://github.com/HariSekhon/DevOps-Python-tools pytools && cd pytools && make
-#
-# Debian / Ubuntu:
-#
-#   apt-get update && apt-get install -y make git && git clone https://github.com/HariSekhon/DevOps-Python-tools pytools && cd pytools && make
-#
-# RHEL / CentOS:
-#
-#   yum install -y make git && git clone https://github.com/HariSekhon/DevOps-Python-tools pytools && cd pytools && make
-
-# ===================
-
-ifneq ("$(wildcard bash-tools/Makefile.in)", "")
-	include bash-tools/Makefile.in
-endif
+#ifneq ("$(wildcard bash-tools/Makefile.in)", "")
+#    include bash-tools/Makefile.in
+#endif
 
 REPO := HariSekhon/Vagrant-templates
 
@@ -45,7 +24,7 @@ build: init
 	@echo ================
 	@echo Vagrant-templates Builds
 	@echo ================
-	@$(MAKE) git-summary
+	@#$(MAKE) git-summary
 	@echo
 
 # stub to pass validation
@@ -55,8 +34,12 @@ boot:
 
 .PHONY: init
 init:
-	@echo "running init:"
-	git submodule update --init
+	if ! [ -d ~/github/bash-tools ]; then \
+		mkdir -v ~/github; \
+		git clone https://github.com/HariSekhon/DevOps-Bash-tools ~/github/bash-tools; \
+	fi
+	@#echo "running init:"
+	@#git submodule update --init
 	@echo
 
 .PHONY: install

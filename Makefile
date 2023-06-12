@@ -48,6 +48,11 @@ build: init
 	@$(MAKE) git-summary
 	@echo
 
+# stub to pass validation
+.PHONY: boot
+boot:
+	@:
+
 .PHONY: init
 init:
 	@echo "running init:"

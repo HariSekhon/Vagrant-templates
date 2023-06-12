@@ -16,7 +16,7 @@
 set -euo pipefail
 [ -n "${DEBUG:-}" ] && set -x
 
-bash_tools="/bash"
+bash_tools="/github/bash-tools"
 
 # shellcheck disable=SC1090
 source "$bash_tools/lib/utils.sh"

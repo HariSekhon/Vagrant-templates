@@ -11,7 +11,9 @@
 #  https://www.linkedin.com/in/HariSekhon
 #
 
+include ../Makefile.in
+
 .PHONY: boot
-boot:
+boot: arch
 	vagrant up
-	exec vagrant ssh rancher1
+	exec vagrant ssh rancher-master1

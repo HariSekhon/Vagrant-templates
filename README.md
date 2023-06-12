@@ -33,7 +33,15 @@
 
 Vagrant templates for quick labs.
 
-Just `cd` to a directory and type `make`:
+The shell provisioners use my [DevOps-Bash-tools](https://github.com/HariSekhon/DevOps-Bash-tools) repo.
+
+Run this to ensure it's downloaded first:
+
+```shell
+make init
+```
+
+Then just `cd` to a directory and type `make`:
 
 ```shell
 cd ubuntu

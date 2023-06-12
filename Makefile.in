@@ -26,3 +26,7 @@ arch:
 	if [ "$(ARCH)" = "amd64" ]; then \
 		gsed -i 's|^\([[:space:]]*config.vm.box = ".*-[[:digit:].]*\)"|\1-arm64"|' Vagrantfile; \
 	fi
+
+.PHONY: destroy
+destroy:
+	vagrant destroy --force

@@ -45,7 +45,7 @@ build: init
 	@echo ================
 	@echo Vagrant-templates Builds
 	@echo ================
-	@$(MAKE) git-summary
+	@#$(MAKE) git-summary
 	@echo
 
 .PHONY: init

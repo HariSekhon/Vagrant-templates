@@ -1,6 +1,6 @@
 #
 #  Author: Hari Sekhon
-#  Date: 2013-03-14 12:32:15 +0000 (Thu, 14 Mar 2013)
+#  Date: [% DATE # 2013-03-14 12:32:15 +0000 (Thu, 14 Mar 2013) %]
 #
 #  vim:ts=4:sts=4:sw=4:et:filetype=ruby
 #

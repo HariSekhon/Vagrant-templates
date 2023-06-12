@@ -45,6 +45,15 @@ Vagrant templates for quick labs.
 Just `cd` to a directory and type `vagrant up`.
 
 
+## Inventory
+
+`kubernetes` - Kubernetes cluster built by `kubeadm`. Used this to pass my [CKA](https://www.cncf.io/certification/cka/) exam ([Certified Kubernetes Administrator](https://www.cncf.io/certification/cka/)), you need something like this for the official [CNCF CKA course - Kubernetes Fundamentals](https://training.linuxfoundation.org/training/kubernetes-fundamentals/) (as of 2019-2020)
+
+`ubuntu` - base build (fork to build new ubuntu-based labs quickly)
+
+
+## See Also
+
 For tonnes of great free tech programs and scripts, see also:
 
 - [DevOps Bash Tools](https://github.com/HariSekhon/DevOps-Bash-tools) - 1000+ DevOps Bash Scripts, Advanced `.bashrc`, `.vimrc`, `.screenrc`, `.tmux.conf`, `.gitconfig`, CI configs & Utility Code Library - AWS, GCP, Kubernetes, Docker, Kafka, Hadoop, SQL, BigQuery, Hive, Impala, PostgreSQL, MySQL, LDAP, DockerHub, Jenkins, Spotify API & MP3 tools, Git tricks, GitHub API, GitLab API, BitBucket API, Code & build linting, package management for Linux / Mac / Python / Perl / Ruby / NodeJS / Golang, and lots more random goodies

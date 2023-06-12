@@ -14,4 +14,4 @@
 .PHONY: boot
 boot:
 	./2nodes.sh
-	exec vagrant ssh master1
+	exec vagrant ssh kube-master1

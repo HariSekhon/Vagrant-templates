@@ -28,7 +28,7 @@ Vagrant.configure("2") do |config|
     # https://app.vagrantup.com/bento
     #
     #config.vm.box = "hashicorp/bionic64"
-    config.vm.box = "bento/ubuntu-18.04"
+    config.vm.box = "bento/ubuntu-22.04"
 
     # root login doesn't work on hashicorp/bionic64 or bento/ubuntu-18.04 box with pw 'vagrant'
     #config.ssh.username     = "root"

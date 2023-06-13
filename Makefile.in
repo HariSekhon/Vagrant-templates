@@ -23,9 +23,10 @@ default:
 
 .PHONY: arch
 arch:
-	if [ "$(ARCH)" = "arm64" ]; then \
+	@#if [ "$(ARCH)" = "arm64" ]; then \
 		gsed -i 's|^\([[:space:]]*config.vm.box = ".*-[[:digit:].]*\)"|\1-arm64"|' Vagrantfile; \
 	fi
+	@:
 
 .PHONY: destroy
 destroy:

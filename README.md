@@ -62,7 +62,7 @@ vagrant ssh ubuntu
 - `kubernetes/` - [Kubernetes](https://kubernetes.io/) cluster built by `kubeadm` on Ubuntu. Used this to pass my [CKA](https://www.cncf.io/certification/cka/) exam ([Certified Kubernetes Administrator](https://www.cncf.io/certification/cka/)), you need something like this for the official [CNCF CKA course - Kubernetes Fundamentals](https://training.linuxfoundation.org/training/kubernetes-fundamentals/) (as of 2019-2020)
 - `rancher/` - [Rancher](https://www.rancher.com/) cluster, installs Kubernetes via its own installer, different to kubernetes above
 
-Copy the `ubuntu/` / `debian/` directories to quickly create new Ubuntu or Debian based labs.
+Copy the `ubuntu/` or `debian/` directories to quickly create new Ubuntu or Debian based labs.
 
 
 ## See Also

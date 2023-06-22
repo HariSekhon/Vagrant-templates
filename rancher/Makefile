@@ -23,7 +23,9 @@ quickstart:
 	fi
 	cd quickstart
 	vagrant up
-	if uname -s | grep -q Darwin; then open https://192.168.56.101 ; fi
+	if uname -s | grep -q Darwin; then \
+		open https://192.168.56.101 ; \
+	fi
 
 .PHONY: boot
 boot: arch

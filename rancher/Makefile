@@ -21,7 +21,7 @@ quickstart:
 	else \
 		git clone https://github.com/rancher/quickstart; \
 	fi
-	cd quickstart && \
+	cd quickstart/rancher/vagrant/ && \
 	vagrant up
 	if uname -s | grep -q Darwin; then \
 		open https://192.168.56.101 ; \

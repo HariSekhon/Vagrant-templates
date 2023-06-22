@@ -13,6 +13,18 @@
 
 include ../Makefile.in
 
+.PHONY: quickstart
+quickstart:
+	if [ -d quickstart ]; then \
+		cd quickstart; \
+		git pull; \
+	else \
+		git clone https://github.com/rancher/quickstart; \
+	fi
+	cd quickstart
+	vagrant up
+	open https://192.168.56.101
+
 .PHONY: boot
 boot: arch
 	vagrant up

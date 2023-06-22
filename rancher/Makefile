@@ -21,13 +21,15 @@ quickstart:
 	else \
 		git clone https://github.com/rancher/quickstart; \
 	fi
-	cd quickstart
+	cd quickstart && \
 	vagrant up
 	if uname -s | grep -q Darwin; then \
 		open https://192.168.56.101 ; \
 	fi
 
 .PHONY: boot
-boot: arch
-	vagrant up
-	exec vagrant ssh rancher-master1
+#boot: arch
+#    vagrant up
+#    exec vagrant ssh rancher-master1
+boot: quickstart
+	@:

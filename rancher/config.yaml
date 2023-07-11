@@ -16,6 +16,8 @@
 # /etc/rancher/rke2/config.yaml
 
 ---
+server: https://rancher-master1:9345
+token: <token from server node>
 #write-kubeconfig-mode: "0644"
 #tls-san:
 #  - "foo.local"

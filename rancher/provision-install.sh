@@ -24,11 +24,16 @@ cd "$srcdir"
 # Install
 curl -sfL https://get.rke2.io | sh -
 
-systemctl enable rke2-server.service
+server_or_agent="server"
+if [ "${INSTALL_RKE2_TYPE:-}" = "agent" ]; then
+    server_or_agent="agent"
+fi
 
-systemctl start rke2-server.service
+systemctl enable rke2-"$server_or_agent".service
 
-journalctl -u rke2-server -f &
+systemctl start rke2-"$server_or_agent".service
+
+journalctl -u rke2-"$server_or_agent" -f &
 
 sleep 30
 

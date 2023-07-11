@@ -21,7 +21,10 @@ srcdir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 cd "$srcdir"
 
-# Install
+# Install environment variables:
+#
+#   https://docs.rke2.io/install/configuration#configuring-the-linux-installation-script
+#
 curl -sfL https://get.rke2.io | sh -
 
 server_or_agent="server"
@@ -36,6 +39,9 @@ systemctl start rke2-"$server_or_agent".service
 journalctl -u rke2-"$server_or_agent" -f &
 
 sleep 30
+
+# also /etc/rancher/rke2/config.yaml.d/*.yaml
+#export RKE2_CONFIG_FILE=/etc/rancher/rke2/config.yaml
 
 export KUBECONFIG=/etc/rancher/rke2/rke2.yaml
 

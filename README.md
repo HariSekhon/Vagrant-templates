@@ -7,7 +7,7 @@
 [![My LinkedIn](https://img.shields.io/badge/LinkedIn%20Profile-HariSekhon-blue?logo=linkedin)](https://www.linkedin.com/in/HariSekhon/)
 [![GitHub Last Commit](https://img.shields.io/github/last-commit/HariSekhon/Vagrant-templates?logo=github)](https://github.com/HariSekhon/Vagrant-templates/commits/master)
 
-[![Codacy](https://app.codacy.com/project/badge/Grade/dffc1bfd13404c95b5a0ab97fd47974e)](https://www.codacy.com/gh/HariSekhon/Vagrant-templates/dashboard)
+[![Codacy](https://app.codacy.com/project/badge/Grade/4d10a36afcfb47368019c984d8bcaa85)](https://www.codacy.com/gh/HariSekhon/Vagrant-templates/dashboard)
 [![CodeFactor](https://www.codefactor.io/repository/github/harisekhon/Vagrant-templates/badge)](https://www.codefactor.io/repository/github/harisekhon/Vagrant-templates)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=HariSekhon_Vagrant-templates&metric=alert_status)](https://sonarcloud.io/dashboard?id=HariSekhon_Vagrant-templates)
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=HariSekhon_Vagrant-templates&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=HariSekhon_Vagrant-templates)

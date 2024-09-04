@@ -31,7 +31,6 @@
 [![SonarCloud](https://github.com/HariSekhon/Vagrant-templates/actions/workflows/sonarcloud.yaml/badge.svg)](https://github.com/HariSekhon/Vagrant-templates/actions/workflows/sonarcloud.yaml)
 [![Trivy](https://github.com/HariSekhon/Vagrant-templates/actions/workflows/trivy.yaml/badge.svg)](https://github.com/HariSekhon/Vagrant-templates/actions/workflows/trivy.yaml)
 
-
 Vagrant templates for quick labs.
 
 The shell provisioners use my [DevOps-Bash-tools](https://github.com/HariSekhon/DevOps-Bash-tools) repo.
@@ -50,11 +49,11 @@ make
 ```
 
 which will run:
+
 ```shell
 vagrant up
 vagrant ssh ubuntu
 ```
-
 
 ## Inventory
 

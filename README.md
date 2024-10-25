@@ -65,9 +65,9 @@ vagrant ssh ubuntu
 
 Copy the `ubuntu/` or `debian/` directories to quickly create new Ubuntu or Debian based labs.
 
-### Stargazers over time
+## Star History
 
-[![Stargazers over time](https://starchart.cc/HariSekhon/Vagrant-templates.svg)](https://starchart.cc/HariSekhon/Vagrant-templates)
+[![Star History Chart](https://api.star-history.com/svg?repos=HariSekhon/Vagrant-templates&type=Date)](https://star-history.com/#HariSekhon/Vagrant-templates&Date)
 
 ## More Core Repos
 

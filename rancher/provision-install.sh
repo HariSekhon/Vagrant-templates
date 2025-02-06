@@ -4,7 +4,7 @@
 #  Author: Hari Sekhon
 #  Date: 2023-07-11 02:57:14 +0100 (Tue, 11 Jul 2023)
 #
-#  https://github.com/HariSekhon/Vagrant-templates
+#  https://github.com/HariSekhon/Vagrant
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #

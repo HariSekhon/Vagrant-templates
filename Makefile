@@ -4,7 +4,7 @@
 #
 #  vim:ts=4:sts=4:sw=4:noet
 #
-#  https://github.com/HariSekhon/Vagrant-templates
+#  https://github.com/HariSekhon/Vagrant
 #
 #  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback
 #
@@ -15,14 +15,14 @@
 #    include bash-tools/Makefile.in
 #endif
 
-REPO := HariSekhon/Vagrant-templates
+REPO := HariSekhon/Vagrant
 
 CODE_FILES := $(shell git ls-files | grep -E -e '\.sh$$' -e '\.py$$' | sort)
 
 .PHONY: build
 build: init
 	@echo ================
-	@echo Vagrant-templates Builds
+	@echo Vagrant Builds
 	@echo ================
 	@#$(MAKE) git-summary
 	@echo
